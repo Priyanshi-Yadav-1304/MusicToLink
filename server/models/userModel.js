@@ -13,7 +13,7 @@ const userModel = new mongoose.Schema({
     password:String,
     isPaid:{
         type:Boolean,
-        default:false,
+        default:true,
     },
     isBlocked:{
         type:Boolean,
