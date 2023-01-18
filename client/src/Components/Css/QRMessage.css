@@ -1,0 +1,66 @@
+.QRMessage{
+    height: 25vmin;
+    width: 25vmin;
+}
+.QR-box{
+    display: flex;
+}
+.QR-message-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.QR-message-card{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    height: 70vmin;
+    width: 70vmin;
+    box-shadow: 0 0 1vmin grey;
+}
+.QRcode{
+    height: 20vmin;
+}
+.qr-design-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border:1px solid #AB1D79;
+    border-radius: 2vmin;
+    flex-direction: column;
+    width: 60vmin;
+    height: 60vmin;
+}
+.qrcode-title{
+    text-align: center;
+}
+.Qr-code-next-button{
+    width: 10vmin;
+    background-color:#AB1D79;
+    color: white;
+    border-radius: 10vmin;
+}
+.Qr-code-next-button:hover{
+    background-color: white;
+    color:#AB1D79;
+    border: 1px solid #AB1D79;
+}
+.Qr-code-downloadbtn{
+    background-color: white;
+    border: 1px solid #AB1D79;
+    color:#AB1D79;
+    border-radius: 10vmin;
+    width: 20vmin;
+}
+.Qr-code-downloadbtn:hover{
+    background-color: #AB1D79;
+    color:white;
+}
+.qr-card-next-box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 0 5vmin;
+}

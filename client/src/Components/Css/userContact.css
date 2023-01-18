@@ -1,0 +1,28 @@
+.userContactBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vmin 0vmin;
+    width: 100%;
+}
+.userContact{
+    width: 50vmin;
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 2vmin grey;
+    margin:'5vmin 0vmin';
+}
+.userContactTitle{
+    text-align: center;
+}
+.user-contact-submit{
+    background-color: lightseagreen;
+}
+.save-btn-menu{
+    background-color: lightseagreen;
+}
+.hidden-box-contact{
+    height: 5vmin;
+}

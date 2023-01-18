@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.profilepage{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    min-height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profilefirst{
+    /* height: 70vmin; */
+    margin-top: 15vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pro1{
+    width: 120vmin;
+    height: 25vmin;
+    display: flex;
+}
+.prophoto{
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 50%;
+    border: 5px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.proname{
+   width: 90vmin;
+   margin-left: 5vmin;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.proname > div{
+    height: 7vmin;
+    /* width: 54vmin; */
+    display: flex;
+
+    /* justify-content: space-between; */
+}
+.name{
+    font-size: 6.5vmin;
+}
+.job{
+    font-size: 2vmin;
+}
+.discription{
+    font-size: 2.5vmin;
+    height: 10vmin;
+}
+.pro2{
+    width: 120vmin;
+    height: 30vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vmin;
+}
+.applink{
+    width: 30vmin;
+    height: 10vmin;
+    margin-left: 5vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.applinkdiv{
+    width: 30vmin;
+    height: 4vmin;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #39bbfe;
+    align-items: center;
+    border-radius: 1vmin;
+}
+.insta{
+   width: 30vmin;
+   height: 4vmin;
+   display: flex;
+   justify-content: space-between;
+   border: 2px solid rgb(56,187,255);
+   align-items:  center;
+   border-radius: 1vmin;
+}
+.youtube{
+    width: 30vmin;
+    height: 4vmin;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(53, 88, 107);
+    align-items:  center;
+    border-radius: 1vmin;
+}
+.video{
+    /* width: 50vmin;
+    height: 30vmin; */
+    margin-right: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vedio-border{
+    width: 50vmin;
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(56,187,255);
+}
+.youtube-frame{
+    box-shadow: 0 0 1vmin grey;
+}
+.edit-input{
+    margin-top: 2vmin;
+}
+.profile-service-modal{
+    height:10vmin;
+    width: 10vmin;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.link-input-modal{
+    width: 75%;
+}
+.profile-links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.profile-links-option{
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+}
+.profile-link-card{
+    width: 20%;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vmin 2vmin;
+    color: white;
+}
+.logout{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.profile-play-btn{
+    width: 17vmin;
+    height: 5vmin;
+    border-radius: 4vmin;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 2.1vmin;
+}
+.profile-play-btn:hover{
+    border: 1px solid rgb(18,175,255);
+    color: rgb(18,175,255);
+}
+.QRCode-profile{
+    height: 25vmin;
+    width: 25vmin;
+    margin-right: 15vmin;
+}

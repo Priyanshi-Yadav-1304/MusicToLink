@@ -1,0 +1,8 @@
+.menuIcon{
+    cursor: pointer;
+    height:50px;
+}
+.menuLink{
+    text-decoration: none;
+    color: black;
+}

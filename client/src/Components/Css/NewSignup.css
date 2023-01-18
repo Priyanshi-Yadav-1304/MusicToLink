@@ -1,0 +1,23 @@
+.new-signupPage{
+    background-color: black;
+  }
+  
+  #inputID::placeholder {
+    color: black;
+    opacity: 1;
+    font-family: league-spartan;
+    font-weight: 1000;
+  }
+  #inputID2::placeholder {
+    color: black;
+    opacity: 1;
+    font-family: league-spartan;
+    font-weight: 1000;
+  }
+  
+#inputID3::placeholder {
+    font-family: chewy;
+    font-weight: 500;
+    color: black;
+    font-size: 24px;
+  }
